@@ -6,8 +6,20 @@
 	--orange: orange;
 }
 
+/* base */
+
 body {
 	padding-inline: 1rem;
 	background-color: var(--bg);
 	font-family: Futura;
+}
+
+/* utils */
+
+.action {
+	padding: 1em 2em;
+	background-color: var(--orange);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
 }

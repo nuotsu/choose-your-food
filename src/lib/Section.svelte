@@ -9,7 +9,7 @@
 <style>
 	section {
 		position: relative;
-		margin-top: 1em;
+		margin-top: 2em;
 		padding: 1rem;
 		background-color: #fff;
 	}

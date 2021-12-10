@@ -1,10 +1,10 @@
 <Section title="Filter">
 	<ul>
-		<li>Preset 1</li>
-		<li>Preset 2</li>
+		<li><a href="/filter">Preset 1</a></li>
+		<li><a href="/filter">Preset 2</a></li>
 	</ul>
 
-	<a href="/new-preset">New Preset</a>
+	<a href="/filter">New Preset</a>
 </Section>
 
 <Section title="History">
