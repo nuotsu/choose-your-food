@@ -11,6 +11,7 @@
 		position: relative;
 		margin-top: 2em;
 		padding: 1rem;
+		border-radius: 5px;
 		background-color: #fff;
 	}
 

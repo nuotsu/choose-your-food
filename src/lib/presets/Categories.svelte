@@ -1,5 +1,5 @@
 <div class="categories">
-	<div>
+	<div class="no-scrollbar">
 		<fieldset>
 			{#each categories as category}
 				<Checkbox name="category" label={category} />
@@ -33,14 +33,16 @@
 	}
 </style>
 
-<script>
-	import Checkbox from '$lib/Checkbox.svelte'
-
-	let categories = [
+<script context="module">
+	export const categories = [
 		'Asian',
 		'American',
 		'Italian',
 		'Mexican',
 		'French',
 	]
+</script>
+
+<script>
+	import Checkbox from '$lib/ui/Checkbox.svelte'
 </script>

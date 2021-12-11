@@ -46,7 +46,7 @@
 </style>
 
 <script>
-	import Section from '$lib/Section.svelte'
+	import Section from '$lib/ui/Section.svelte'
 	import Prices from '$lib/presets/Prices.svelte'
 	import Categories from '$lib/presets/Categories.svelte'
 	import Distance from '$lib/presets/Distance.svelte'

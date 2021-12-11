@@ -1,5 +1,5 @@
 <fieldset>
-	<input type="range" min={0} max={20} value={5}>
+	<input type="range" {min} {max} value={5}>
 </fieldset>
 
 <style>
@@ -10,3 +10,8 @@
 		border: 1px dashed lightgray;
 	}
 </style>
+
+<script context="module">
+	export const min = 0
+	export const max = 20
+</script>

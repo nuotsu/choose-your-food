@@ -12,5 +12,5 @@
 </Section>
 
 <script>
-	import Section from '$lib/Section.svelte'
+	import Section from '$lib/ui/Section.svelte'
 </script>

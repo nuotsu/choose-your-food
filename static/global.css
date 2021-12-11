@@ -14,12 +14,20 @@ body {
 	font-family: Futura;
 }
 
+small {
+	font-size: smaller;
+}
+
 /* utils */
 
 .action {
 	padding: 1em 2em;
+	border-radius: 5px;
 	background-color: var(--orange);
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
 }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

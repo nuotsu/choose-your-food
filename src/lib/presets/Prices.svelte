@@ -12,13 +12,15 @@
 	}
 </style>
 
-<script>
-	import Checkbox from '$lib/Checkbox.svelte'
-
-	let prices = [
+<script context="module">
+	export const prices = [
 		'$',
 		'$$',
 		'$$$',
 		'$$$$',
 	]
+</script>
+
+<script>
+	import Checkbox from '$lib/ui/Checkbox.svelte'
 </script>
