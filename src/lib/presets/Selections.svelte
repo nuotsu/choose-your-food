@@ -12,6 +12,7 @@
 <style>
 	select {
 		width: 100%;
+		text-align: center;
 	}
 </style>
 

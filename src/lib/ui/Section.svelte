@@ -10,18 +10,20 @@
 	section {
 		position: relative;
 		margin-top: 2em;
-		padding: 1rem;
+		padding: 2rem 1rem 1rem;
 		border-radius: 5px;
 		background-color: #fff;
 	}
 
 	h2 {
 		position: absolute;
-		left: 0;
+		left: -0.5rem;
 		top: 0;
 		padding: 0.25em 1em;
 		transform: translateY(-50%);
+		border-radius: 4em;
 		background-color: inherit;
+		box-shadow: 0 5px 5px #0001;
 	}
 </style>
 

@@ -5,13 +5,13 @@
 	<div class="filter"><Selections/></div>
 </Section>
 
-<section>
-	<a href="#1">Preset 1</a>
-	<a href="#2">Preset 2</a>
-</section>
+<PresetList/>
 
 <section class="actions">
-	<a href="/results" class="action">Go!</a>
+	<a href="/results" class="action with-icon">
+		Find food!
+		<ArrowR/>
+	</a>
 
 	<div class="cancel-wrapper">
 		<a href="/pre-filter" class="cancel">Cancel</a>
@@ -26,7 +26,11 @@
 	.actions {
 		display: grid;
 		gap: 1rem;
-		margin-top: 2rem;
+		margin-block: 2rem;
+	}
+
+	.action {
+		font-size: 1.2em;
 	}
 
 	.cancel-wrapper {
@@ -47,4 +51,6 @@
 	import Categories from '$lib/presets/Categories.svelte'
 	import Distance from '$lib/presets/Distance.svelte'
 	import Selections from '$lib/presets/Selections.svelte'
+	import PresetList from '$lib/presets/PresetList.svelte'
+	import ArrowR from '$icons/ArrowR.svelte'
 </script>

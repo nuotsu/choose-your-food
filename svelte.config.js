@@ -11,7 +11,7 @@ const config = {
 		vite: {
 			resolve: {
 				alias: {
-					$data: path.resolve('./src/data')
+					$icons: path.resolve('./src/icons')
 				}
 			}
 		}

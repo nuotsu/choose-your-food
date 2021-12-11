@@ -7,8 +7,11 @@
 	/>
 {/each}
 
+<Actions/>
+
 <script>
 	import Result from '$lib/results/Result.svelte'
+	import Actions from '$lib/results/Actions.svelte'
 	import { categories } from '$lib/presets/Categories.svelte'
 	import { prices } from '$lib/presets/Prices.svelte'
 	import { min, max } from '$lib/presets/Distance.svelte'

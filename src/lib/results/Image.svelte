@@ -1,6 +1,6 @@
 <img
 	src="https://baconmockup.com/{width}/{height}/" alt=""
-	{width} {height}
+	{width} {height} loading="lazy"
 >
 
 <style>

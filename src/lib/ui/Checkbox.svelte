@@ -8,12 +8,13 @@
 		display: inline-block;
 		padding: 0.25em 1em;
 		border-radius: 5px;
-		background-color: lightgray;
-		color: #fff;
+		background-color: var(--bg);
+		color: var(--orange);
 	}
 
 	input:checked + label {
 		background-color: var(--orange);
+		color: #fff;
 	}
 </style>
 

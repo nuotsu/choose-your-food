@@ -3,8 +3,8 @@
 :root {
 	--bg: #fff8f0;
 
-	--orange: 			#f59e0b;
-	--orange-light: #FBBF24;
+	--orange: 				#f59e0b;
+	--orange-light:		#fbbf24;
 
 	--t: 0.2s ease-in-out;
 }
@@ -19,6 +19,11 @@ body {
 
 small {
 	font-size: smaller;
+}
+
+svg {
+	width: 1em;
+	height: 1em;
 }
 
 /* utils */
@@ -36,6 +41,24 @@ small {
 }
 .action:hover {
 	background-color: var(--orange-light);
+}
+
+.button {
+	display: inline-grid;
+	place-content: center;
+	padding: 1em 2em;
+	border-radius: 5px;
+	border: 1px solid currentColor;
+	background-color: #fff;
+	color: var(--orange);
+	text-align: center;
+	text-decoration: none;
+}
+
+.with-icon {
+	display: inline-flex;
+	gap: 0.5ch;
+	align-items: center;
 }
 
 .no-scrollbar { scrollbar-width: none; }
