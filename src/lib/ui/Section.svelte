@@ -10,7 +10,7 @@
 	section {
 		position: relative;
 		margin-top: 2em;
-		padding: 2rem 1rem 1rem;
+		padding: 2rem 1rem 1.5rem;
 		border-radius: 5px;
 		background-color: #fff;
 	}
@@ -19,7 +19,7 @@
 		position: absolute;
 		left: -0.5rem;
 		top: 0;
-		padding: 0.25em 1em;
+		padding: 0.5em 1em;
 		transform: translateY(-50%);
 		border-radius: 4em;
 		background-color: inherit;

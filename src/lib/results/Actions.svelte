@@ -5,7 +5,7 @@
 	</a>
 
 	<button on:click={handleClick} class="action with-icon">
-		Next
+		More results
 		<ChevronR/>
 	</button>
 </section>
@@ -42,6 +42,10 @@
 		cursor: pointer;
 		border: 0;
 		font: inherit;
+	}
+
+	.action {
+		padding-inline: 1em;
 	}
 </style>
 

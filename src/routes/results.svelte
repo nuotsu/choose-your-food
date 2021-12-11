@@ -1,5 +1,5 @@
 {#each Array(5) as _, i}
-	<Result
+	<Result ranked
 		rank={i+1}
 		category={getRandom(categories)}
 		price={getRandom(prices)}
@@ -15,12 +15,5 @@
 	import { categories } from '$lib/presets/Categories.svelte'
 	import { prices } from '$lib/presets/Prices.svelte'
 	import { min, max } from '$lib/presets/Distance.svelte'
-
-	function getRandom(arr) {
-		return arr[Math.floor(Math.random() * arr.length)]
-	}
-
-	function getRandomDistance(min, max) {
-		return Math.floor(Math.random() * (max - min + 1)) + min
-	}
+	import { getRandom, getRandomDistance } from '$lib/utils'
 </script>

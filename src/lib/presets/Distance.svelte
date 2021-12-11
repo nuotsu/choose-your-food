@@ -5,9 +5,7 @@
 <style>
 	fieldset {
 		display: grid;
-		place-content: center;;
-		padding: 1rem;
-		border: 1px dashed lightgray;
+		place-content: center;
 	}
 </style>
 

@@ -21,12 +21,14 @@
 <style>
 	.filter + .filter {
 		margin-top: 1.5rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid #eee;
 	}
 
 	.actions {
 		display: grid;
 		gap: 1rem;
-		margin-block: 2rem;
+		margin-block: 2rem 3rem;
 	}
 
 	.action {
