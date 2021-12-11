@@ -2,15 +2,22 @@
 	<title>{title}</title>
 </svelte:head>
 
-<h1>
-	<a href="/">{title}</a>
-</h1>
+<main>
+	<h1>
+		<a href="/">{title}</a>
+	</h1>
 
-<slot></slot>
+	<slot></slot>
 
-<Footer/>
+	<Footer/>
+</main>
 
 <style>
+	main {
+		max-width: 414px;
+		margin-inline: auto;
+	}
+
 	h1 {
 		padding-block: 1rem;
 		font-size: 1.5em;

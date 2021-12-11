@@ -19,11 +19,12 @@
 
 	.categories::after {
 		content: '';
+		pointer-events: none;
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		right: 0;
-		width: 1rem;
+		width: 2rem;
 		background-image: linear-gradient(to left, #fff, #fff0);
 	}
 
