@@ -1,5 +1,9 @@
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
+
 <h1>
-	<a href="/">Choose Your Food</a>
+	<a href="/">{title}</a>
 </h1>
 
 <slot></slot>
@@ -21,4 +25,6 @@
 
 <script>
 	import Footer from '$lib/Footer.svelte'
+
+	let title = 'Choose Your Food'
 </script>
