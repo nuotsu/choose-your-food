@@ -29,10 +29,6 @@
 		margin-top: 2rem;
 	}
 
-	.action {
-		display: block;
-	}
-
 	.cancel-wrapper {
 		text-align: center;
 	}
